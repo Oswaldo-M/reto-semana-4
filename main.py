@@ -72,7 +72,7 @@ def main():
         print(p)
 
     escribir_reporte(necesitan_reorden,ARCHIVO_REPORTE)
-    print(f"Reporte guardado en: {ARCHIVO_REPORTE}")
+    print(f"\nReporte guardado en: {ARCHIVO_REPORTE}")
 
     print("\n"+"-"*50)
     print("Proceso terminado")
