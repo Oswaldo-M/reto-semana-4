@@ -1,8 +1,5 @@
 class Producto:
 
-
-#H
-
     def __init__(self, sku,nombre,categoria,precio,stock,stock_minimo):
         self.sku=sku
         self.nombre= nombre
@@ -17,7 +14,7 @@ class Producto:
     def unidades_faltantes(self):
         return self.stock_minimo - self.stock
     
-    def valor_del_inventario(self):
+    def valor_inventario(self):
         return self.stock*self.precio
     
     def __str__(self):

@@ -1,0 +1,5 @@
+sku,nombre,categoria,stock_actual,stock_minimo,unidades_faltantes,valor_inventario
+SKU002,Mouse Logitech,Accesorios,315, 12,1050.00
+SKU005,Audifonos Sony,Accesorios,210, 8,2400.00
+SKU001,Laptop HP,Electronica,510, 5,75000.00
+SKU007,SSD 1TB,Almacenamiento,05, 5,0.00
