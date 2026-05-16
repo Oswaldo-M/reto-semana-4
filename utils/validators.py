@@ -40,7 +40,7 @@ def validar_producto(sku, nombre, categoria, precio, stock, stock_minimo):
     if not validar_stock(stock_minimo):
         return False, f"Stock minimo invalido: {stock_minimo}"
     
-    return True, None
+    return True, None 
 
 
 
