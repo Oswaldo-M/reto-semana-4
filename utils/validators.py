@@ -10,10 +10,12 @@ def validar_precio(precio):
     
     try:
         precio = float(precio)
+        if precio == float('inf') or precio == float('-inf'):
+            return False
         return precio>=0
     except (ValueError,TypeError):
         return False
-    
+        
 def validar_stock(stock):
     
     try:
