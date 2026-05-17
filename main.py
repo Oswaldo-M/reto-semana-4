@@ -3,8 +3,8 @@ from utils.validators import validar_producto
 from utils.io import leer_inventario, escribir_reporte
 
 
-ARCHIVO_INVENTARIO = "data/inventario.csv"
-ARCHIVO_REPORTE = "outputs/reporte_inventario.csv"
+ARCHIVO_INVENTARIO = "data/entrada_facil.csv"
+ARCHIVO_REPORTE = "outputs/salida_facil.csv"
 
 def crear_productos(datos_raw):
 
