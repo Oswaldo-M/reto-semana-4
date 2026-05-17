@@ -32,6 +32,6 @@ def escribir_reporte(productos,ruta_archivo):
 
         for p in productos:
             linea= f"{p.sku},{p.nombre},{p.categoria},{p.stock},"
-            linea += f"{p.stock_minimo}, {p.unidades_faltantes()}, {p.valor_inventario():.2f}"
+            linea += f"{p.stock_minimo},{p.unidades_faltantes()},{p.valor_inventario():.2f}"
             archivo.write(linea+'\n')
         
